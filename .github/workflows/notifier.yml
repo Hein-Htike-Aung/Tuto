@@ -17,6 +17,6 @@ jobs:
       - name: Send Telegram notification
         uses: appleboy/telegram-action@master
         with:
-          to: ${{ secrets.TELEGRAM_TO }}
-          token: ${{ secrets.TELEGRAM_TOKEN }}
+          to: "6997724786"
+          token: "6997724786:AAFXhOAnpJ2u3afEZSqQXCG01LWyy3fapq4"
           message: "New push to master branch in your GitHub repository."
